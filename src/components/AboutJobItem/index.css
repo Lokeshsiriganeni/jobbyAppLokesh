@@ -1,0 +1,93 @@
+.description-container {
+  display: flex;
+}
+.link-style {
+  color: blue;
+  margin-bottom: none;
+}
+.each-skill-container {
+  display: flex;
+  flex-direction: column;
+}
+.skill-img-container {
+  display: flex;
+}
+.skill-name {
+  margin-right: 109px;
+  margin-top: 29px;
+}
+
+.each-details-card {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.product-item-details-container {
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+.row-container {
+  display: flex;
+  flex-direction: column;
+}
+.visit-website {
+  text-decoration: none;
+}
+
+.package-style {
+  margin-right: 25px;
+  margin-top: 9px;
+}
+
+@media screen and (max-width: 576px) {
+  .package-style {
+    margin-top: 16px;
+    margin-left: 25px;
+  }
+  .rating-style {
+    margin-top: 2px;
+    margin-right: 2px;
+  }
+  .life-at-company-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .each-details-card {
+    margin: 25px;
+  }
+  img {
+    width: 50px;
+    height: 40px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+
+  .life-at-company-img {
+    margin: 9px;
+  }
+}
+
+.life-at-company-container {
+  display: flex;
+}
+
+.location-img {
+  margin-right: 4px;
+}
+.life-at-company-img {
+  width: 40vw;
+  height: 40vh;
+  margin: 9px;
+}
